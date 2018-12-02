@@ -41,7 +41,7 @@
           <a class="nav-link" href="#">Контакты</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Окомпании</a>
+          <a class="nav-link" href="#">О&#160;компании</a>
         </li>
       </ul>
     </div>
