@@ -130,39 +130,16 @@
                   content:el
                  });
                   position = 0;
-            }
-
                   marker.addListener("click", function(){
                     info.open(map, marker);
+            }
+
+                
 
                   });
                 
                }
-function ProgressBar(percent){
-  if (percent >= 0.2) {
-            if (percent >= 0.2 && percent < 0.4) {
-          
-                progress.src = "img/img/status1.png";
-            }
-            if (percent >= 0.4 && percent < 0.6) {
-                progress.src = "img/img/status2.png";
-            }
 
-            if (percent >= 0.6 && percent < 0.8) {
-                progress.src = "img/img/status3.png";
-            }
-
-            if (percent >= 0.8 && percent < 1) {
-                progress.src = "img/img/status4.png";
-            }
-            if (percent >= 1) {
-                progress.src = "img/img/status5.png";
-            }
-        }
-        else {
-            progress.src = "img/img/status0.png";
-        }
-      }
 
                </script>
 
