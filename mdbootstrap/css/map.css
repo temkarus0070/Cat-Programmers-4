@@ -1,0 +1,78 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+.view {
+    background: url("../img/img/back.jpg")no-repeat center center;
+    background-size: cover;
+}
+.navbar {
+    background-color: transparent;
+    padding-left: 8%;
+}
+.top-nav-collapse{
+    background-color: rgba(0,0,0,0.8);
+}
+@media only screen and (max-width: 991px/* 768px */) {
+    .navbar {
+         background-color: rgba(0,0,0,0.8); 
+    }
+}
+.nav-item{
+	font-size: 16px;
+	margin: 0 4%;
+}
+.collapse{
+margin-right: 20%;
+}
+/* SCREEN TWO */
+.form{
+text-align: center;
+}
+.form__input{
+background-color: #333;
+border: none;
+border-radius: 5px;
+width: 500px;
+padding: 15px 0;
+padding-left: 23px;
+outline:none;
+margin-right: 10px;
+margin-left: 10px;
+
+}
+
+.form__btn, .form__select{
+font-size: 15px;
+border-radius:  5px;
+padding: 15px 20px;
+border: none;
+cursor: pointer;
+outline: none;
+margin-bottom: 10px;
+}
+.display{
+font-size: 15px;
+border-radius:  5px;
+padding: 15px 20px;
+border: none;
+cursor: pointer;
+outline: none;
+margin-bottom: 10px;
+}
+.btnWidth, .selectWidth{
+	width: 250px;
+}
+.btnMargin{
+	margin-bottom: 25px;
+	margin-right: 20px;
+}
+  #map{
+    width: 780px;
+    margin-left: 10px;
+    height: 300px;
+    border: 1px solid #000;
+    margin-top: 15px;
+  }
