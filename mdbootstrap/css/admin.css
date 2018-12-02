@@ -1,0 +1,16 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+    color: #fff;
+}
+.header{
+    /* background: url()no-repeat center center;
+    background-size: cover; */
+    padding-top: 5%;
+
+}
+.title{
+  text-align: center;
+}
